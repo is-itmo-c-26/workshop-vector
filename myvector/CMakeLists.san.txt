@@ -1,0 +1,7 @@
+add_compile_options(-fsanitize=address)
+add_link_options(-fsanitize=address)
+
+-fsanitize=address // ASAN
+-fsanitize=memory // MSAN
+-fsanitize=undefined // UBSAN
+-fsanitize=thread // TSAN
